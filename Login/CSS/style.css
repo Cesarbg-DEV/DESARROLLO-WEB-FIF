@@ -15,7 +15,7 @@
     float: left;
 }
     .izq{
-        background: url(/Login/images/fondologin.png) no-repeat;
+        background: url(images/fondologin.png) no-repeat;
         background-size: cover;
     }
     .der{
@@ -44,7 +44,7 @@
             box-sizing: border-box;
         }
         input[type=password]{
-            background-image: url(/login/images/e.png);
+            background-image: url(images/e.png);
             background-size: 10%;
             background-repeat: no-repeat;
             background-position: right;
