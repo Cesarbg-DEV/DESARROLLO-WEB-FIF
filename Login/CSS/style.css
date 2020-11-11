@@ -15,7 +15,7 @@
     float: left;
 }
     .izq{
-        background: url(images/fondologin.png) no-repeat;
+        background: url(/Login/fondologin.png) no-repeat;
         background-size: cover;
         
     }
