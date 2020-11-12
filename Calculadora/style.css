@@ -1,18 +1,16 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    
+body,html{
+    height: 100%;
 }
 body{
     margin: 0;
     padding:0;
+    background-image: linear-gradient( 135deg, #DF8537 10%, #BA2E5D 100%);
     font-family: sans-serif;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-self: center;
-    background: linear-gradient(#DF8537 0%, #BA2E5D 100%);
+    justify-content: center;
     
 }
 .calculadora{
