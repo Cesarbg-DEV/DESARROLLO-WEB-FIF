@@ -45,7 +45,7 @@
             box-sizing: border-box;
         }
         input[type=password]{
-            background-image: url(/Login/images/e.png);
+            background-image: url(/Login/e.png);
             background-size: 10%;
             background-repeat: no-repeat;
             background-position: right;
