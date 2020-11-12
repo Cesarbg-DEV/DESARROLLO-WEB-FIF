@@ -4,13 +4,15 @@
     
 }
 body{
+    margin: 0;
+    padding:0;
     font-family: sans-serif;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-self: center;
-    height: 100vh;
     background: linear-gradient(#DF8537 0%, #BA2E5D 100%);
-    padding-left: 33rem;
     
 }
 .calculadora{
