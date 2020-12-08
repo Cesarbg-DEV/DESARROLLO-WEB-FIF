@@ -1,0 +1,131 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+body,html{
+  height: 100%;
+  overflow: hidden;
+}
+body{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient( 135deg, #2AFADF 10%, #4C83FF 100%);
+}
+/* INDEX */
+.sobremi{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 550px;
+  height: 550px;
+  background: #fff;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgb(61, 60, 60);
+  text-align: center;
+  z-index: 10;
+}
+.menu li{
+  float: left;
+  margin-right: 10px;
+  padding: 23px 19px 59px;
+  margin-top: 275px;
+  font-weight: bold;
+}
+
+.marco1{
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  transform: rotate(20deg);
+  margin-top: 250px;
+  left: -150px;
+}
+.marco2{
+  position: absolute;
+  width: 800px;
+  height: 700px;
+  transform: rotate(200deg);
+  margin-top: -250px;
+  right: -150px;
+}
+.yo{
+  position: absolute;
+  margin-top: 10px;
+  left: 33%;
+  width: 200px;
+  height: 190px;
+  border-radius: 40px;
+}
+
+.titulo-main-presentacion{
+  position: absolute;
+  left: 120px;
+  margin-top: 220px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titulo-main-habilidades{
+  position: absolute;
+  left: 150px;
+  margin-top: 220px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.titulo-main-contacto{
+  position: absolute;
+  left: 170px;
+  margin-top: 220px;
+  font-size: 40px;
+  font-weight: bold
+}
+.cosassobremi{
+  font-weight: bold;
+}
+.titulo-main-actividades{
+  position: absolute;
+  left: 150px;
+  margin-top: 220px;
+  font-size: 40px;
+  font-weight: bold
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li{
+    padding-bottom: 15px;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #000000;
+  }
+  
+  a:visited {
+    color: #000000;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #828cf5;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;     
+    background: #828cf5;
+  }
+  
+  a:active {
+    background: #000000;
+    color: #E8E4FD;
+  }
