@@ -13,7 +13,7 @@ const generateTempalate = (todo) => {
                     <span class="check"></span>
                     ${todo}
                   </label>
-                  <i class="far fa-trash-alt delete">delete</i>
+                  <i class="far fa-trash-alt delete"></i>
                 </li>`
   todoList.innerHTML += html;
 };
